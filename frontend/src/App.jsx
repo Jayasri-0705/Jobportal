@@ -10,12 +10,13 @@ function App() {
  
   return (
     <BrowserRouter>
-	    <Routes>
-			<Route path='/register' element={<RegisterPage/>} />
-			<Route path='/login' element={<LoginPage/>} />
-			<Route path='/jobs' element={<JobsListPage/>} />
-			<Route path='/apply/:jobId' element={<ApplyjobPage/>} />
-        </Routes>
+	  <Routes>
+                 <Route path='/' element={<LoginPage/>} />
+                 <Route path='/register' element={<RegisterPage/>} />
+                 <Route path='/login' element={<LoginPage/>} />
+                 <Route path='/jobs' element={<JobsListPage/>} />
+                 <Route path='/apply/:jobId' element={<ApplyjobPage/>} />
+         </Routes>
     </BrowserRouter>
   )
 }
