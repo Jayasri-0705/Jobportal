@@ -13,7 +13,7 @@ export default function ApplyjobPage() {
       const username = localStorage.getItem("username");
   
       useEffect(() => {
-          fetch("http://127.0.0.1:8000/apply")
+          fetch("https://jobportal-de1u.onrender.com/apply")
           .then(res => res.json())
           .then(setJobs)
           .catch(err => console.error("Failed to fetch jobs:",err))
@@ -28,7 +28,7 @@ export default function ApplyjobPage() {
 
       async function applyJobAction(_, formData) {
     // const json = Object.fromEntries(formData);
-    const res = await fetch('http://127.0.0.1:8000/apply', {
+    const res = await fetch('https://jobportal-de1u.onrender.com/apply', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

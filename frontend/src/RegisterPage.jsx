@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 async function registerAction(_, formData) {
     const json = Object.fromEntries(formData);
-    const res = await fetch('http://127.0.0.1:8000/register', {
+    const res = await fetch('https://jobportal-de1u.onrender.com/register', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

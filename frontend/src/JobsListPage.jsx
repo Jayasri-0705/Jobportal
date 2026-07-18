@@ -8,7 +8,7 @@ export default function JobsListPage() {
     const username = localStorage.getItem("username");
 
     useEffect(() => {
-        fetch("http://127.0.0.1:8000/jobs")
+        fetch("https://jobportal-de1u.onrender.com/jobs")
         .then(res => res.json())
         .then(setJobs)
         .catch(err => console.error("Failed to fetch jobs:",err))

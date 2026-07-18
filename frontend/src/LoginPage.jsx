@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 
 async function loginAction(_, formData) {
     const json = Object.fromEntries(formData);
-    const res = await fetch('http://127.0.0.1:8000/login', {
+    const res = await fetch('https://jobportal-de1u.onrender.com/login', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
