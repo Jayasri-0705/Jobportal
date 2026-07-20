@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useActionState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 
 
@@ -23,7 +23,7 @@ async function registerAction(_, formData) {
 
 export default function RegisterPage(){
 
-
+   const navigate = useNavigate();
 
 
     const [message, formAction, isPending] = useActionState(registerAction, "", {
@@ -31,7 +31,12 @@ export default function RegisterPage(){
     });
 
     
-    
+useEffect(() => {
+        if (message === "User Registered Successfully!") {
+            navigate("/login");
+        }
+    }, [message, navigate]);   
+ 
     return (
         <div className="bg-gray-50 text-gray-800">
 
