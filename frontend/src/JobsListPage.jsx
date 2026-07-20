@@ -24,8 +24,8 @@ export default function JobsListPage() {
             <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 text-center px-4">
                 <h2 className="text-2xl font-bold text-gray-800 mb-2">Please login first</h2>
                 <p className="text-gray-600 mb-6">You need to be logged in to view and apply for jobs.</p>
-                <NavLink to="/login" className="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2.5 px-6 rounded transition">
-                    Go to Login
+                <NavLink to="/register" className="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2.5 px-6 rounded transition">
+                    Go to Register
                 </NavLink>
             </div>
         )
