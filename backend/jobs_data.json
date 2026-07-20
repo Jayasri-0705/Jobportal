@@ -1,0 +1,158 @@
+[
+{
+  "model": "backend.job",
+  "pk": 1,
+  "fields": {
+    "title": "React Developer",
+    "description": "Build modern UI's using React 19 and Tailwind",
+    "company": "TechNova",
+    "location": "Chennai",
+    "salary_range": "8-12 LPA",
+    "posted_on": "2026-06-28",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 2,
+  "fields": {
+    "title": "Software Engineer Fresher",
+    "description": "Basic knowledge of web development. Assist in development, testing, and deployment of software applications. Must be a 2026 pass-out (B.E/B.Tech/MCA).",
+    "company": "CodeArray Technologies Pvt. Ltd.",
+    "location": "India",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 3,
+  "fields": {
+    "title": "ReactJS Developer - Fresher",
+    "description": "Build modern, responsive UIs using React and related web technologies. Great opportunity for recent graduates and entry-level professionals to kick-start their careers.",
+    "company": "Total Automations Solutions",
+    "location": "Remote",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 4,
+  "fields": {
+    "title": "Java Developer Fresher",
+    "description": "Designing, implementing, and maintaining Java applications, often high-volume and low-latency, for mission-critical systems. Good knowledge of Core Java and server-side programming required.",
+    "company": "Cyber Net",
+    "location": "Cochin",
+    "salary_range": "10,480 - 25,935 per month",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 5,
+  "fields": {
+    "title": "Junior Web Developer (Trainee)",
+    "description": "Strong foundation in JavaScript and an interest in building modern web applications. Applicable for freshers or candidates with up to 1 year of experience.",
+    "company": "ShreeMeru Enterprises",
+    "location": "Bengaluru",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 6,
+  "fields": {
+    "title": "Technical Support Engineer Fresher",
+    "description": "Provide high-quality support to international customers via email and chat for WordPress, Shopify, and SaaS-based products. Open to 2025/2026 graduates.",
+    "company": "Mozilor Technologies",
+    "location": "India",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 7,
+  "fields": {
+    "title": "Support Engineer - Linux (Entry Level/Fresher)",
+    "description": "Maintain clear documentation of troubleshooting steps and solutions. Provide support for Linux-based systems and infrastructure.",
+    "company": "Now Digital Easy",
+    "location": "India",
+    "salary_range": "7,000 - 15,000 per month",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 8,
+  "fields": {
+    "title": "Graduate Engineer Trainee (Freshers)",
+    "description": "Collaborate with senior support engineers and IT staff to address complex technical issues. Ensure systems run up-to-date with antivirus and security patches.",
+    "company": "Microlink Solutions Pvt. Ltd.",
+    "location": "India",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 9,
+  "fields": {
+    "title": "Software Engineer Freshers",
+    "description": "Assist in development, testing, and deployment of software applications. Basic knowledge of web development is a plus. Must be a 2026 pass-out (B.E/B.Tech).",
+    "company": "CodeArray Technologies Pvt. Ltd.",
+    "location": "India",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 10,
+  "fields": {
+    "title": "Backend/Frontend/Full Stack Developer (Entry-Level)",
+    "description": "Support the design, development, and maintenance of web applications. Ideal for recent graduates and entry-level professionals.",
+    "company": "Propel Technology Group",
+    "location": "Remote",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 11,
+  "fields": {
+    "title": "Software Developer Fresher (Batch 2026)",
+    "description": "6 months of structured training/internship followed by a mandatory service period (no bond agreement). Skills: Data structures, C#, .NET, Java, Databases.",
+    "company": "Nobl Q",
+    "location": "Coimbatore",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+},
+{
+  "model": "backend.job",
+  "pk": 12,
+  "fields": {
+    "title": "Associate Software Engineer - Flutter",
+    "description": "Good knowledge of Flutter/Dart required. Comfortable building mobile app screens, fixing bugs, integrating APIs, and improving app performance.",
+    "company": "Morbid Technologies OPC Private Limited",
+    "location": "India",
+    "salary_range": "As per company standards",
+    "posted_on": "2026-06-29",
+    "created_by": 11
+  }
+}
+]
