@@ -4,12 +4,20 @@ import { NavLink, useNavigate } from 'react-router-dom';
 export default function JobsListPage() {
     const [jobs, setJobs] = useState([]);
     const username = localStorage.getItem("username");
+    const navigate = useNavigate();
+
     useEffect(() => {
         fetch("https://jobportal-de1u.onrender.com/jobs")
         .then(res => res.json())
         .then(setJobs)
         .catch(err => console.error("Failed to fetch jobs:",err))
     }, [])
+
+    const handleLogout = () => {
+        localStorage.removeItem("username");
+        localStorage.removeItem("userId");
+        navigate("/login");
+    }
 
     if (!username) {
         return (
@@ -29,16 +37,14 @@ export default function JobsListPage() {
   <header className="border-b bg-white">
     <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
       <h1 className="text-xl font-bold text-blue-700">JobPortal</h1>
-      {/* <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-700">
-        <a href="#" className="hover:text-blue-700">Jobs</a>
-        <a href="#" className="hover:text-blue-700">Companies</a>
-        <a href="#" className="hover:text-blue-700">My Applications</a>
-      </nav> */}
       <div className="flex items-center gap-4">
         <span className="text-sm text-gray-600">Hello, {username}</span>
         <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-700 text-sm font-semibold text-white">
           {username ? username.charAt(0).toUpperCase(): "?"}
         </div>
+        <button onClick={handleLogout} className="text-sm font-medium text-red-600 hover:underline">
+          Logout
+        </button>
       </div>
     </div>
   </header>
@@ -51,7 +57,6 @@ export default function JobsListPage() {
       </div>
      
       <div className="space-y-4">
-        {/* Job Card*/}
         {jobs.length == 0 ? (
             <p className='text-gray-500'>No Jobs Found</p>)
             :jobs.map(job => (
@@ -73,10 +78,6 @@ export default function JobsListPage() {
           </div>
         </div>  
             ))}
-        
-      
-        
-    
       </div>
     </main>
   
