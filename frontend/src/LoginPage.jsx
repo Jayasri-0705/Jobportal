@@ -44,7 +44,7 @@ export default function LoginPage() {
                 JobPortal
             </div>
 
-            <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-700">
+            <nav className="flex gap-6 text-sm font-medium text-gray-700">
                 <a href="/jobs" className="hover:text-blue-700">Jobs</a>
               
                
