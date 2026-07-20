@@ -73,7 +73,7 @@ export default function LoginPage() {
             </ul>
         </section>
       
-        <section className="hidden md:block">
+        <section className="bg-white border rounded-lg p-8 max-w-md w-full mx-auto">
 
 
 <h1 className="text-2xl font-bold text-blue-700 text-center">
